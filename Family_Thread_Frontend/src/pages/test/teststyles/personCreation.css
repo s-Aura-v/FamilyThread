@@ -1,0 +1,42 @@
+/*CSS*/
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    font-family: Helvetica;
+}
+#tree{
+    width:100%;
+    height:100%;
+}
+
+svg.tommy .node.male>rect {
+    fill: #039be5;
+}
+
+svg.tommy .node.female>rect {
+    fill: #FF46A3;
+}
+
+svg.tommy [data-n-id="3"].node.male>rect {
+    fill: #00D3A5;
+}
+
+svg.tommy .node.green.female rect{
+    fill: #00D3A5;
+}
+
+[data-l-id] path {
+    stroke: #016e25;
+}
+
+.field_0 {
+    font-family: Impact;
+    text-transform: uppercase;
+    fill: #cfcfcf;
+}
+.field_1 {
+    fill: #cfcfcf;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Tree1",
+    "famMem": 2
+  },
+  {
+    "id": 2,
+    "name": "Tree2",
+    "famMem": 3
+  },
+  {
+    "id": 3,
+    "name": "Tree3",
+    "famMem": 4
+  },
+  {
+    "id": 4,
+    "name": "Tree4",
+    "famMem": 4
+  }
+]

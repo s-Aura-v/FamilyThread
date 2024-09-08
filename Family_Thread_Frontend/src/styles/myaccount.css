@@ -1,0 +1,64 @@
+.accContainer{
+    margin-left: 20px;
+    margin-top: -30px;
+    margin-bottom: 100px; /* extra scroll */
+    display: flex;
+}
+.accheader{
+    margin-left: 100px; /* align text header */
+}
+
+.userinfo {
+    margin-top: 45px;
+    margin-left: 100px;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.adjust {
+    margin-left: -200px;
+    margin-top: 100px;
+}
+
+
+.infoboxestxt{
+    margin-top: -40px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.newinfobox1{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 325px;
+    background-color: #cfcecc;
+    height: 35px;
+    width: 185px;
+}
+
+.newinfobox2{
+    margin-top: -35px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 600px;
+    background-color: #cfcecc;
+    height: 35px;
+    width: 185px;
+}
+
+.profilepic{
+    height: 192px;
+    width: 192px;
+}
+
+.alignimg{
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 450px;
+    width: 400px;
+}

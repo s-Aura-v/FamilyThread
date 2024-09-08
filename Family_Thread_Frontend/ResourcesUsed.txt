@@ -1,0 +1,20 @@
+Login:
+    react-oauth:           https://github.com/MomenSherif/react-oauth
+    jwt-decode:            https://www.npmjs.com/package/jwt-decode
+    mongo-db:              npm i mongodb
+    next:                  npm i next
+    axios:                 npm i axios
+    MaterialUI             npm install @mui/material @emotion/react @emotion/styled
+    react-crop             npm i react-image-crop --save
+    LZ-String              npm install -g lz-string
+
+
+
+Docker:
+    https://medium.com/@Anas.shahwan/dockerizing-nodejs-react-js-and-mongodb-apps-be67a73c7a7b
+    https://www.youtube.com/watch?v=g0QCZSzEqCY
+
+Online Resources:
+    react-oauth + jwt-decode: https://www.youtube.com/watch?v=UUJfTsn6S_Y
+    mongo-db + next + axios:  https://www.youtube.com/watch?v=t3UjWbh7mqI
+

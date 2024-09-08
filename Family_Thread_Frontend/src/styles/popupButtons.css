@@ -1,0 +1,11 @@
+.deleteBtn {
+    background-color: red;
+}
+
+.cancelBtn {
+    background-color: grey;
+
+}
+.saveBtn {
+    background-color: green;
+}

@@ -1,0 +1,121 @@
+
+.login-container{
+    margin: 30vh 30vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Border stuff   */
+    padding: 20px;
+    border: 10px solid #073F3E;
+    background-color: #f0f0f0;
+}
+
+
+.login-link {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.login-link:hover {
+    color: #073F3E;
+}
+
+.login-btn {
+    background-color: #073F3E;
+    color: #073F3E;
+    border: 1px solid #073F3E;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button Hover Effect */
+.login-btn:hover {
+    background-color: white;
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 0px 0px 10px #8f8e8d;
+}
+
+/* Button Focus Effect */
+.login-btn:focus {
+    justify-content: end;
+    color: #073F3E;
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add focus border */
+}
+
+.goals {
+    opacity: 1;
+    height: 30vw;
+}
+
+.team {
+    background-color: #5C7A31;
+    height: inherit;
+}
+
+.text {
+    display: inline-block;
+    margin: 2vw 10vw 2vw 10vw;
+    width: 80%;
+    height: 90%;
+    font-family: Baskerville, Serif;
+    text-align: justify;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #B8CF98;
+    border-radius: 5px;
+    font-size: 2rem;
+
+}
+
+.vision-blockquote {
+    background-color: #87A55D;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 0px;
+    height: inherit;
+    background-color: #F0E7D8;
+}
+
+.name{
+    font-family: Perpetua, Serif;
+    font-size: 200pt;
+    color: #4D2E08;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.mission{
+    background-color: #B8CF98;
+}
+
+.vision{
+    background-color: #87A55D;
+    height: inherit;
+}
+
+.comingSoon {
+    color: white;
+    text-align: center;
+    font-size: 80pt;
+}

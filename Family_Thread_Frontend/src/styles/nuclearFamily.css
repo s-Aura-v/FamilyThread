@@ -1,0 +1,36 @@
+.trees {
+    background-color: #699375;
+    opacity: 80%;
+    height: 400px;
+    width: inherit;
+}
+
+.templateTrees {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    position: relative;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align the sub-box to the bottom */
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.lower-sub-box {
+    width: 53.8%;
+    height: 50px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+}
+
+.individual-tree {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

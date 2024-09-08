@@ -1,0 +1,29 @@
+
+
+.search-input {
+    background-color: inherit;
+    color: white;
+    border: none;
+    padding-left: 1rem;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color:white;
+}
+
+.search-button {
+    background-color: inherit;
+    border: none;
+    color: white;
+}
+
+.search-title {
+    text-align: center;
+    font-family: Baskerville, sans-serif;
+    font-size: 40px;
+}
+
+.search-icon {
+    height:20px;
+}

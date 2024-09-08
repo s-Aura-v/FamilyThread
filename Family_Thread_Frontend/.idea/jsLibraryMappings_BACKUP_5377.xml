@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+<<<<<<< .merge_file_V6nLle
+    <includedPredefinedLibrary name="Node.js Core" />
+=======
+    <excludedPredefinedLibrary name="Family_Thread/DisplayFamilyTree/node_modules" />
+>>>>>>> .merge_file_glnMOM
+  </component>
+</project>

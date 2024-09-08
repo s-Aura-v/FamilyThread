@@ -1,0 +1,16 @@
+@ -1,37 +0,0 @@
+Instructions:(
+Pre-Req: USE SDK VERSION 18 for Project Structure
+
+How to run the file:
+    1. docker compose up -d
+
+Dockerfile:
+    Installs the Springboot into a jar file
+    Runs the jar file
+        Resorces -> App.properties
+            Stores the server port [NEEDED] [This is how we run the program in the port]
+
+DockerCompose:
+    Runs the mongoDB
+    Sets the port for Springboot

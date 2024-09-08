@@ -1,0 +1,150 @@
+/*CARD BASICS*/
+.card-front{
+    margin-left: 45px;
+    width: 300px;
+    height: 380px;
+    /*border: 1px solid black;*/
+    border-radius: 20px;
+    background: #F0E7D8;
+}
+
+.card-back{
+    margin-left: 45px;
+    width: 300px;
+    height: 380px;
+    /*border: 1px solid black;*/
+    border-radius: 20px;
+    background: #496226;
+}
+
+.card-front:hover {
+    transform: scale3d(1.03, 1.03, 1.03);
+    box-shadow: 0px 0px 5px black;
+}
+
+.card-back:hover {
+    transform: scale3d(1.03, 1.03, 1.03);
+    box-shadow: 0px 0px 5px black;
+}
+
+
+/*INFORMATION ON THE CARDS*/
+.memberName{
+    text-align: center;
+    font-family: Baskerville;
+    font-size: 17pt;
+    margin-bottom: 0px;
+}
+
+.email{
+    font-family: Baskerville;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.summary-title{
+    text-align: end;
+    margin-right: 10px;
+    margin-bottom: 0;
+    color: #F0E7D8;
+}
+
+.summary-text{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16pt;
+    color: white;
+    text-align: end;
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #496226;
+    padding: 3px;
+}
+
+.image .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #F0E7D8;
+}
+
+.github-logos{
+    padding-top: 15px;
+    width: 10%;
+    height: 10%;
+    filter: invert(100%);
+}
+
+
+
+.linkedin-logos{
+    padding-top: 15px;
+    width: 9%;
+    height: 9%;
+    filter: invert(100%);
+}
+
+.socialLogosContainer{
+     display: flex;
+     text-align: center;
+    margin-bottom: 0;
+ }
+
+.socialName{
+    font-size: 14pt;
+    margin-left: 10px;
+    margin-top:20px;
+    padding-top:0;
+    text-align: start;
+}
+
+
+/*BUTTON*/
+.button {
+    background-color: #87A55D;
+    color: #073F3E;
+    border: 1px solid #073F3E;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+.button:focus {
+    justify-content: end;
+    border: 1px solid #87A55D;
+    color: #073F3E;
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add focus border */
+}
+.button:hover{
+    border: 1px solid #073F3E;
+    color: #073F3E;
+    background-color: white;
+    transform: translateY(-0.5rem);
+    box-shadow: 5px 5px 4rem #918d8d;
+}
+
+a {
+    color: white;
+}
+
+.link {
+    color: white;
+}

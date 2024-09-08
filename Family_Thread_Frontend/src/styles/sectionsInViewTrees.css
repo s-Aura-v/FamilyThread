@@ -1,0 +1,49 @@
+h1 {
+    padding-top: 30px;
+    font-size: 48px;
+    font-family: Perpetua, serif;
+
+}
+
+h2 {
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Perpetua, serif;
+}
+
+.button-view-trees {
+    margin-bottom: 30px;
+    padding: 10px 26px;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+    font-size: 12px;
+    transition: all 150ms ease-in-out;
+    box-shadow: rgba(184, 207, 152, 0.2) 0px 1px 0px 0px inset, rgba(135, 165, 93, 0.9) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: #87A55D;
+    background-image: radial-gradient(76% 151% at 52% -52%, rgba(184, 207, 152, 0.9) 0%, transparent 100%);
+}
+
+.button-view-trees:hover {
+    filter: brightness(1.1);
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.button-view-trees:active {
+    transform: scale(.95);
+}
+
+.tree-picture{
+    margin-top: 20px;
+    box-shadow: 0 0 7px #b2a99a;
+    height: 290px;
+    width: 290px;
+    border: solid 1px black;
+}
+
+.tree-container {
+    height: 250px;
+    width: 300px;
+}

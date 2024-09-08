@@ -1,0 +1,34 @@
+.trees {
+    background-color: beige;
+    height: 400px;
+    width: inherit;
+}
+
+.templateTrees {
+    width: inherit;
+    height: 200px;
+    background-color: #f0f0f0;
+    position: relative;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align the sub-box to the bottom */
+}
+
+.lower-sub-box {
+    width: inherit;
+    height: 50px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+}
+
+.individual-tree {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    width: 300px;
+}

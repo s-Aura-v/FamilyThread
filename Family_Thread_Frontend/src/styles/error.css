@@ -1,0 +1,25 @@
+.error-body {
+    max-width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*border: black 1px solid;*/
+    display: flex;
+}
+
+.left-error {
+    font-size: 2rem;
+    flex:.7;
+}
+
+.left-error .oops {
+    margin-top: 100pt;
+    font-size: 80pt;
+}
+
+.right-error {
+    flex:1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

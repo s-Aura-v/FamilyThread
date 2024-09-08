@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./Family_Thread_Backend
+      dockerfile: Dockerfile
+    container_name: 380sp24-ft-backend
+    depends_on:
+      - mongo
+    ports:
+      - "27021:27021"
+
+  frontend:
+    build:
+      context: ./Family_Thread_Frontend
+      dockerfile: Dockerfile
+    container_name: frontend-react-app
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend 
+
+  mongo:
+    image: mongo:4.0.4
+    command: mongod --port 27020
+    container_name: teamb-380-sp24
+    ports:
+      - "27020:27020"
+    volumes:
+      - mongodata:/data/db
+
+volumes:
+  mongodata:
+    driver: local
+

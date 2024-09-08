@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  app:  # Define the service for the Java application
+    build:  # Build the image from the Dockerfile in the current directory
+      context: .
+      dockerfile: Dockerfile
+    container_name: 380sp24-ft-backend
+    depends_on:
+      - mongo  # Ensure the MongoDB service is started first
+    ports:
+      - "27021:27021"
+  mongo:
+    image: mongo:4.0.4
+    command: mongod --port 27020
+    container_name: teamb-380-sp24
+    ports:
+      - "27020:27020"
+    volumes:
+      - mongodata:/data/db
+volumes:
+  mongodata:
+    driver: local
